@@ -10,3 +10,13 @@ This guide explains how to upload a GitHub Archive dataset to a Databricks Volum
 - GitHub Archive dataset downloaded locally
 
 ---
+
+## Step 1: Create a Volume
+
+Create a Unity Catalog Volume to store the raw GitHub Archive files.
+
+```sql
+CREATE VOLUME IF NOT EXISTS workspace.github_event_lakehouse.raw_data;
+```
+
+---
