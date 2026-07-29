@@ -20,3 +20,13 @@ CREATE VOLUME IF NOT EXISTS workspace.github_event_lakehouse.raw_data;
 ```
 
 ---
+
+## Step 2: Download the Dataset
+
+Download the required hourly GitHub Archive file from the GitHub Archive website.
+
+Example file:
+
+```
+2025-01-15-12.json.gz
+```
