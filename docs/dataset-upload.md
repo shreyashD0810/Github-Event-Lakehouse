@@ -24,12 +24,13 @@ CREATE VOLUME IF NOT EXISTS workspace.github_event_lakehouse.raw_data;
 ## Step 2: Download the Dataset
 
 Download the required hourly GitHub Archive file from the GitHub Archive website.
-
+https://data.gharchive.org/
 Example file:
 
 ```
 2025-01-15-12.json.gz
 ```
+directly paste the link with the example file format into the browser to download the file. (you can change the date in same format for date)
 
 ---
 
